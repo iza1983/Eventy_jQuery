@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.carousel ul {
+  font-size: 0;
+  position: relative;
+  list-style: none;
+  width: 2000px;
+  list-style-type: none;
+  float: left;
+}
+
+.carousel ul li {
+  display: inline-block;
+}
+
+[class*="obrazek"] {
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.obrazek0 {
+  background-image: url("https://images.pexels.com/photos/6548/cold-snow-winter-mountain.jpeg?h=350&auto=compress&cs=tinysrgb");
+}
+
+.obrazek1 {
+  background-image: url("https://images.pexels.com/photos/139573/pexels-photo-139573.jpeg?h=350&auto=compress");
+}
+
+.obrazek2 {
+  background-image: url("https://images.pexels.com/photos/6550/nature-sky-sunset-man.jpeg?h=350&auto=compress");
+}
+
+.obrazek3 {
+  background-image: url("https://images.pexels.com/photos/23049/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb");
+}
+
+.obrazek4 {
+  background-image: url("https://images.pexels.com/photos/12582/photo-1440557958969-404dc361d86f.jpeg?h=350&auto=compress");
+}
