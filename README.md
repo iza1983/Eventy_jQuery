@@ -1,1 +1,1 @@
-# kodilla-9.3
+# kodilla-9.3 - Eventy jQuery
